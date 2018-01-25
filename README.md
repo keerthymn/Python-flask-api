@@ -18,14 +18,19 @@ $ pip install virtualenv
 Now create a folder for the project
 
 $ mkdir api-project
+
 $ cd api-project
+
 $ virtualenv venv
+
 $ venv\Scripts\activate
 
 We are in the main folder of the project. Now install the requirements using the following commands.
 
 $ pip install flask
+
 $ pip install flask-restful
+
 $ pip install sqlalchemy
 
 Database
@@ -33,7 +38,9 @@ Database
 Now to get the database in sqlite3 from the CSV file, the following commands can be used
 
 $ sqlite3 <path>\cars.db
+    
 sqlite> .mode csv
+
 sqlite> .import <path>/cars.csv cars
     
 Running the application.
@@ -126,6 +133,7 @@ Output:
 
 References:
 •	https://flask-restful.readthedocs.io/en/latest/quickstart.html#a-minimal-api
+
 •	https://prettyprinted.com/courses
 
 
